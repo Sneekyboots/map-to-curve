@@ -1,0 +1,4 @@
+/target
+Cargo.lock
+noir_map_to_curve/target
+/.vscode
