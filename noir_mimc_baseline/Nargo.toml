@@ -1,0 +1,7 @@
+[package]
+name = "noir_mimc_baseline"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.37.0"
+
+[dependencies]
