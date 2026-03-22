@@ -253,7 +253,7 @@ fn bls_sign_verify(
         is_infinite: false
     };
     let scalar = std::embedded_curve_ops::EmbeddedCurveScalar {
-        lo: sk as u128 as u64 as Field,
+        lo: sk as u64 as Field,
         hi: 0
     };
     let computed = std::embedded_curve_ops::multi_scalar_mul([h_point], [scalar]);
